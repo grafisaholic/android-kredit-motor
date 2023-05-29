@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".ui.transaksi.TransaksiFragment">
+
+    <Button
+        android:id="@+id/kredit"
+        android:layout_width="227dp"
+        android:layout_height="wrap_content"
+        android:text="Kredit" />
+
+    <Button
+        android:id="@+id/angsuran"
+        android:layout_marginBottom="30dp"
+        android:layout_width="227dp"
+        android:layout_height="wrap_content"
+        android:text="Angsuran" />
+
+    <Button
+        android:id="@+id/lapKredit"
+        android:layout_width="229dp"
+        android:layout_height="wrap_content"
+        android:text="Laporan Kredit" />
+    <Button
+        android:id="@+id/lapAngsuran"
+        android:layout_width="229dp"
+        android:layout_height="wrap_content"
+        android:text="Laporan ANgsuran" />
+
+</LinearLayout>
